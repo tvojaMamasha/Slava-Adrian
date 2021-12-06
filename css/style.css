@@ -104,3 +104,69 @@ h1 {
     cursor: pointer;
     margin-top: 50px;
 }
+
+/* Popular locations */
+
+.locations {
+    margin-top: 140px;
+}
+
+.location_tittle {
+    font-size: 43px;
+    font-family: "Gelasio";
+  }  
+
+.location__inner {
+    text-align: center;
+}
+
+.location__subtitle {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.location__pictuers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    
+}
+.location__text {
+    margin-top: 35px;
+    text-align: center; 
+}
+
+.location__img {
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px solid black;
+}
+    
+
+
+.location_text-par {
+    font-size: 18px;
+    opacity: 0.6;
+    margin-top: 25px;
+    font-family: 'Roboto';
+}
+
+.location__img:hover {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.location__pictuers p {
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
